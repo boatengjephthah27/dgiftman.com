@@ -7,3 +7,49 @@ colors for the website
 
 hover effect - white-bg, d-blue-color
 
+
+#272643
+#ffffff
+#e3f6f5
+#bae8e8
+#2c698d
+
+
+<h3>Education</h3>
+
+            <h4>PhD. Geography, University of Guelph, Ontario, Canada</h4>
+            <p>
+                Specialization: Hydrology, GIScience, Evolutionary/Genetic algorithms, Multi-objective evolutionary algorithms and optimization.
+            </p>
+            <p>
+                Thesis title: Multi-objective calibration of hydrological models and data assimilation using genetic algorithms
+            </p>
+
+            <h4>MSc. Geography, Simon Fraser University, British Columbia, Canada</h4>
+            <p>
+                Specialization: Geographic Information Science (GIScience).
+            </p>
+            <p>
+                Thesis title: Exploring the characterization of uncertainty in census and borehole data using rough sets.
+            </p>
+
+            <h4>BSc. Honours Geodetic Engineering, Kwame Nkrumah University of Science & Technology, Kumasi, Ghana</h4>
+            <p>
+                Specialization: Geographic Information Science.
+            </p>
+            <p>
+                Thesis title: A geographical information system for the Ghana Army.
+            </p>
+
+h3>BRIEF SUMMARY</h3>
+            <P>
+                I study hydrological processes and physical interactions in the natural and human environments to better understand and manage water resources through advanced measurements and innovative modeling procedures. 
+            </P>
+            <p>This has allowed me to investigate:</p> 
+            <p>(i) hydro-climate processes to improve sustainable water management; </p>
+            <p>(ii) data-model synthesis involving data assimilation and forecasting methods, and</p>
+            <p>(iii) uncertainty estimation for a range of datasets and processes. </p>
+             <p>
+            My research integrates several analytical approaches including hydrological and land surface modeling, environmental modeling and analysis, remote sensing, data assimilation, geospatial data analysis, complex systems, data mining, evolutionary algorithms, and multi-objective methods. 
+            Additional interests span Geospatial Information Science and Technology, transport and mobility research, health geography, transport relations with health and the environment, and urban dynamics
+             </p>
