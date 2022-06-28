@@ -1,0 +1,9 @@
+colors for the website
+    #00296b - dark blue 900
+    #003f88 - dark blue 500
+    #00509d - dark blue 100
+    #fdc500 - yellow 800
+    #ffd500 - yellow 500
+
+hover effect - white-bg, d-blue-color
+
