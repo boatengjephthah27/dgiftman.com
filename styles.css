@@ -41,6 +41,7 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.0rem;
     color: #edf2f9;
+    padding-left: 150px;
     /* text-align: center; */
 
 }
@@ -62,22 +63,43 @@ nav a {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    transition: 0.8s;
   }
   
 nav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-nav a.active {
-    background-color: #04AA6D;
-    color: white;
+    border-bottom: 2px solid ;
   }
 
 .profile {
     background-color: #b08201;
 }
 
+.profile:hover {
+    background-color:  #ddd;
+    color: black;
+}
+
 .name {
     padding: 150px 0 0 380px;
+}
+
+.ex {
+    padding-left: 400px;
+    font-size: 23px;
+}
+
+.ex a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #b08201;
+    border: 4px #b08201 outset;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+
+.ex a:hover {
+    background-color:  #ddd;
+    color: black;
+    border: 4px white outset;
 }
