@@ -16,3 +16,34 @@
 .bg-image {
     @apply w-screen h-screen object-cover;
 }
+
+.-section {
+    @apply w-full h-screen relative overflow-y-scroll;
+    
+}
+
+
+.info-details {
+    @apply text-center absolute top-[40%] left-[45%]
+
+}
+
+.name {
+    @apply text-7xl text-gray-200 mt-4;
+}
+
+.text-intro {
+    @apply  text-gray-300 text-3xl mb-12
+}
+
+.view {
+    @apply  text-gray-300 text-lg border-2 p-4 mt-4 font-bold hover:bg-white hover:text-black transition-all duration-500
+}
+
+.transform-50 {
+    transform: translate(-50%, -50%);
+}
+
+.sc-down {
+    @apply w-8 absolute top-[95%] left-[50%] animate-bounce
+}
