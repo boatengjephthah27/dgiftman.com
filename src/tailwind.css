@@ -3,3 +3,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.navbar {
+    @apply flex justify-between items-center w-[65%] top-0 z-10 fixed h-[5.4rem] p-[2.8rem] text-center right-0;
+}
+
+.nav-links {
+    @apply text-xl px-4 py-2  font-bold rounded-lg hover:bg-gray-600 transition-all duration-300 bg-opacity-10 max-w-md text-white
+}
+
+.bg-image {
+    @apply w-screen h-screen object-cover;
+}
