@@ -560,6 +560,11 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.mx-4{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .mt-\[5\%\]{
   margin-top: 5%;
 }
@@ -570,6 +575,18 @@ video {
 
 .mb-20{
   margin-bottom: 5rem;
+}
+
+.mt-0{
+  margin-top: 0px;
+}
+
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+
+.mb-0{
+  margin-bottom: 0px;
 }
 
 .grid{
@@ -612,6 +629,10 @@ video {
   padding: 0.5rem;
 }
 
+.p-4{
+  padding: 1rem;
+}
+
 .px-8{
   padding-left: 2rem;
   padding-right: 2rem;
@@ -620,6 +641,19 @@ video {
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.pb-0{
+  padding-bottom: 0px;
+}
+
+.pt-4{
+  padding-top: 1rem;
 }
 
 .text-left{
