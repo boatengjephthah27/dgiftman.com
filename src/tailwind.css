@@ -1,24 +1,35 @@
 /* tailwindcss */
 
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Merriweather&family=Montserrat&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
 .navbar {
-    @apply flex justify-between items-center w-[65%] top-0 z-10 fixed h-[5.4rem] p-[2.8rem] text-center right-0;
+    @apply  top-0 z-10 fixed h-[5.4rem] p-[2.8rem] w-full;
+}
+
+.navs {
+    @apply flex w-[65%]  right-0  text-center justify-between items-center top-0 z-10 fixed h-[5.4rem] p-[2.8rem]
 }
 
 .nav-links {
-    @apply text-xl px-4 py-2  font-bold rounded-lg hover:bg-gray-600 transition-all duration-300 bg-opacity-10 max-w-md text-white
+    @apply text-xl px-4 py-2  font-bold rounded-lg hover:bg-white hover:text-black transition-all duration-300 max-w-md text-white
 }
+
+.navBgColor {
+    @apply border-b-2 bg-gray-800 border-gray-900
+}
+
 
 .bg-image {
     @apply w-screen h-screen object-cover;
 }
 
-.-section {
-    @apply w-full h-screen relative overflow-y-scroll;
+.-section1 {
+    @apply w-screen h-screen relative overflow-y-scroll;
     
 }
 
@@ -36,8 +47,12 @@
     @apply  text-gray-300 text-3xl mb-12
 }
 
+.v-p {
+    @apply ml-[35%]
+}
+
 .view {
-    @apply  text-gray-300 text-lg border-2 p-4 mt-4 font-bold hover:bg-white hover:text-black transition-all duration-500
+    @apply  text-white text-lg border-4 p-4 font-bold hover:bg-white hover:text-black transition-all duration-500
 }
 
 .transform-50 {
@@ -47,3 +62,34 @@
 .sc-down {
     @apply w-8 absolute top-[95%] left-[50%] animate-bounce
 }
+
+#about {
+    @apply bg-gray-700 pt-[8%] items-center text-gray-300 pb-[15%]
+}
+
+.brief {
+    @apply w-[60%] mx-[20%] border-2 border-gray-500 p-8 rounded-xl  text-center hover:border-orange-500 hover:border-4 transition-all duration-300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.b-head {
+    @apply text-center text-4xl pb-8;
+    
+}
+
+.l-items {
+    @apply my-2
+}
+
+.s-head {
+    @apply text-lg text-white
+}
+
+.footer {
+    @apply text-center my-4 bg-orange-500 my-0 py-6 flex flex-row justify-between w-full px-4
+}
+
+.foot {
+    @apply py-2 px-4 shadow text-white font-bold bg-orange-600 hover:bg-orange-800 transition-all duration-300 hover:rounded-lg
+} 
+

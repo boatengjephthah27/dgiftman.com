@@ -4,22 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="styles.css" rel="stylesheet"/>
-    <title>Dr. Gift Dumedah | Homepage</title>
+    <title> Gift Dumedah | Homepage</title>
   </head>
   <body>
 
-    <header class="navbar">
-        <a href="#" class="nav-links bg-orange-500">Profile</a>
-        <a href="#" class="nav-links bg-transparent">About</a>
-        <a href="#" class="nav-links bg-transparent">Publications</a>
-        <a href="#" class="nav-links bg-transparent">Teaching</a>        
-        <a href="#" class="nav-links bg-transparent">Research</a>
-        <a href="#" class="nav-links bg-transparent">Research Group</a>
-        <a href="#" class="nav-links bg-transparent">Misc.</a>
+    <header id="navbar">
+        
+        <div class="navs">
+            <a href="#about" class="nav-links bg-transparent bg-opacity-10 ">About</a>
+            <a href="publications.html" class="nav-links bg-transparent bg-opacity-10 ">Publications</a>
+            <a href="#" class="nav-links bg-transparent bg-opacity-10 ">Teaching</a>        
+            <a href="#" class="nav-links bg-transparent bg-opacity-10 ">Research</a>
+            <a href="#" class="nav-links bg-transparent bg-opacity-10 ">Research Group</a>
+            <a href="#" class="nav-links bg-transparent bg-opacity-10 ">Misc.</a>
+            <a href="#" class="nav-links bg-orange-500">Profile</a>
+        </div>
 
     </header>
 
-    <section class="-section">
+    <section class="-section1">
         <img src="images/candle.jpg" class="bg-image">
 
         <div class="info-details transform-50">
@@ -31,16 +34,106 @@
                 Welcome to my page
             </h2>
 
-            <a href="" class="view">
-                View my Profile
-            </a>
+            <div class="v-p">
+                <a href="" class="view">
+                    View my Profile
+                </a>
+            </div>
 
         </div>
-        <a href=""><img class="sc-down transform-50" src="images/down-arrow-hand-drawn-outline-svgrepo-com.svg" alt=""></a>
+
+        <div class="sc-down text-white transform-50">
+            <a href="#about"><img class="transform-50 text-inherit" src="images/down-arrow-hand-drawn-outline-svgrepo-com.svg" title="scroll down"></a>
+        </div>
+        
 
     </section>
 
-    
+    <section id="about">
+
+        <div class="brief">
+            <h1 class="b-head">
+                Brief Summary
+            </h1>
+            <p class="brief-text">
+                I study hydrological processes and physical interactions in the natural and human environments to better understand and manage water resources through advanced measurements and innovative modeling procedures. This has 
+                allowed me to investigate: <br>
+
+                <ul class="l-items">
+                    <li> - hydro-climate processes to improve sustainable water management;</li>
+                    <li> - data-model synthesis involving data assimilation and forecasting methods, and</li>
+                    <li> - uncertainty estimation for a range of datasets and processes.</li> 
+                </ul>
+                
+                My research integrates several analytical approaches including hydrological and land surface modeling, environmental modeling and analysis, remote sensing, data assimilation, geospatial data analysis, complex systems, data mining, evolutionary algorithms, and multi-objective methods. Additional interests span Geospatial Information Science and Technology, transport and mobility research, health geography, transport relations with health and the environment, and urban dynamics.
+            </p>
+        </div>
+
+        <div class="brief mt-[5%]">
+            <h1 class="b-head">
+                Education
+            </h1>
+            <p class="brief-text text-gray-400">
+                <span class="s-head">- PhD. Geography, University of Guelph, Ontario, Canada</span> <br> <br>
+                Specialization: Hydrology, GIScience, Evolutionary/Genetic algorithms, Multi-objective evolutionary algorithms and optimization.
+                Thesis title: Multi-objective calibration of hydrological models and data assimilation using genetic algorithms
+                <br> <br>
+
+                <span class="s-head">- MSc. Geography, Simon Fraser University, British Columbia, Canada</span> <br> <br>
+                Specialization: Geographic Information Science (GIScience).
+                Thesis title: Exploring the characterization of uncertainty in census and borehole data using rough sets.
+                <br> <br>
+
+                <span class="s-head">- BSc. Honours Geodetic Engineering, Kwame Nkrumah University of Science & Technology, Kumasi, Ghana</span> <br> <br>
+                Specialization: Geographic Information Science.
+                Thesis title: A geographical information system for the Ghana Army.
+            </p>
+        </div>
+
+        <div class="brief mt-[5%]">
+            <h1 class="b-head">
+                Research
+            </h1>
+            <p class="brief-text text-gray-400">
+                Based on my academic training and experience my research interests cover hydrology (water resources), Geospatial Information Science and Technology, remote sensing, transport and mobility, health geography, and urban dynamics.
+                <br> <br>
+                <span class="s-head">- Water Resources</span> <br> <br>
+                My research motivation is to contribute to sustainable water resources management through integrated assessment of climate variability and human impact on water resources by employing advanced land surface monitoring strategies for efficient observation-model synthesis. My research employs different hydrological and land surface models along with field and remotely sensed observations to better understand and model hydro-climatic processes.
+                <br> <br>
+
+                <span class="s-head">- Geospatial Information Science and Technology</span> <br> <br>
+                I examine the capability of spatial inquiry and geospatial analysis tools to learn about the human and the physical environment. In particular, I employ GIScience as a tool for spatio-temporal inquiry, decision making under uncertainty, and the development of decision making tools.
+                <br> <br>
+
+                <span class="s-head">- Emerging Interest</span> <br> <br>
+                Recent research interests span transport and mobility research, health geography, transport relations with health and the environment, and urban dynamics
+            </p>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="foot">
+            <a href="mailto:dgiftman@hotmail.com">Enquiry: dgiftman@hotmail.com</a>
+        </div>
+
+        <div class="foot">Equip, Train & Build Capacity</div>
+    </footer>
+
+
+    <script>
+        function changeBg(){
+            var navbar = document.getElementById('navbar');
+            var scrollValue = window.scrollY;
+            if(scrollValue < 600){
+                navbar.classList.remove('navBgColor');
+            } else{
+                navbar.classList.add('navBgColor');
+            }
+        }
+
+        window.addEventListener('scroll', changeBg);
+    </script>
 
 </body>
 </html>
