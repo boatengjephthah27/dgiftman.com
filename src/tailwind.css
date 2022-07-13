@@ -102,7 +102,7 @@
 }
 
 .p-links {
-    @apply px-4 mx-[10%] flex justify-between w-[80%] items-center
+    @apply px-4 mx-[10%] flex justify-between w-[80%] items-center mb-12
 }
 
 .ppxs {
