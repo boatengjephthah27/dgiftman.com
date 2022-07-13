@@ -114,7 +114,7 @@
 }
 
 .p-cards {
-    @apply mt-12 px-12 text-gray-600 font-bold
+    @apply mt-12 px-12 text-gray-600 font-bold h-full
 }
 #journal {
     @apply mt-10

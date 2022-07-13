@@ -581,8 +581,12 @@ video {
   margin-bottom: 5rem;
 }
 
-.mt-8{
-  margin-top: 2rem;
+.mb-\[10\%\]{
+  margin-bottom: 10%;
+}
+
+.mt-4{
+  margin-top: 1rem;
 }
 
 .mt-12{
@@ -591,22 +595,6 @@ video {
 
 .mb-4{
   margin-bottom: 1rem;
-}
-
-.mt-4{
-  margin-top: 1rem;
-}
-
-.mb-12{
-  margin-bottom: 3rem;
-}
-
-.mb-\[\]{
-  margin-bottom: ;
-}
-
-.mb-\[10\%\]{
-  margin-bottom: 10%;
 }
 
 .grid{
@@ -685,12 +673,12 @@ video {
   font-weight: 700;
 }
 
-.font-medium{
-  font-weight: 500;
-}
-
 .font-semibold{
   font-weight: 600;
+}
+
+.font-medium{
+  font-weight: 500;
 }
 
 .text-white{
@@ -1062,6 +1050,7 @@ video {
 
 .p-cards{
   margin-top: 3rem;
+  height: 100%;
   padding-left: 3rem;
   padding-right: 3rem;
   font-weight: 700;
