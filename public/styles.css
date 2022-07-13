@@ -568,6 +568,10 @@ video {
   margin-top: 0.5rem;
 }
 
+.mb-20{
+  margin-bottom: 5rem;
+}
+
 .grid{
   display: grid;
 }
