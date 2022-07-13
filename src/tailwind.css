@@ -7,7 +7,7 @@
 @tailwind utilities;
 
 
-.navbar {
+#navbar {
     @apply  top-0 z-10 fixed h-[5.4rem] p-[2.8rem] w-full;
 }
 
@@ -73,7 +73,7 @@
 }
 
 .b-head {
-    @apply text-center text-4xl pb-8;
+    @apply text-center text-4xl pb-8 animate-pulse;
     
 }
 
@@ -92,4 +92,39 @@
 .foot {
     @apply py-2 px-4 shadow text-white font-bold bg-orange-600 hover:bg-orange-800 transition-all duration-300 hover:rounded-lg
 } 
+
+.p-title {
+    @apply items-center mt-[6%] text-4xl text-gray-700 p-4 text-center
+}
+
+.ptit {
+    @apply animate-pulse
+}
+
+.p-links {
+    @apply px-4 mx-[10%] flex justify-between w-[80%] items-center
+}
+
+.ppxs {
+    @apply flex justify-center border-2 py-2 px-4 border-gray-400 shadow-lg hover:bg-gray-200 transition-all duration-300 hover:shadow-2xl 
+}
+
+.ppx {
+    @apply w-12 h-12
+}
+
+.p-cards {
+    @apply mt-12 px-12 text-gray-600 font-bold
+}
+#journal {
+    @apply mt-10
+}
+
+.pub-tit {
+    @apply text-3xl mb-4 animate-bounce
+}
+
+.card {
+    @apply p-2 text-gray-500 font-semibold hover:shadow-md transition-all duration-300 hover:border-2 hover:border-gray-400
+}
 
