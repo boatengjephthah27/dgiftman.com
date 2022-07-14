@@ -132,3 +132,7 @@
     @apply p-2 text-gray-500 font-semibold hover:shadow-md transition-all duration-300 hover:border-2 hover:border-gray-400
 }
 
+.profile-details {
+    @apply flex justify-center p-4 mx-4 items-center
+}
+
