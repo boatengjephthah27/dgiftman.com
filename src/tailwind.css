@@ -7,16 +7,16 @@
 @tailwind utilities;
 
 
-#navbar {
-    @apply  top-0 z-10 fixed h-[5.4rem] p-[2.8rem] w-full;
+.navbar {
+    @apply top-0 fixed h-[5.4rem] p-[2.8rem] z-10 w-full hidden xl:block;
 }
 
 .navs {
-    @apply flex w-[65%]  right-0  text-center justify-between items-center top-0 z-10 fixed h-[5.4rem] p-[2.8rem]
+    @apply flex w-[65%] right-0 text-center justify-between items-center top-0 fixed h-[5.4rem] p-[2.8rem]
 }
 
 .nav-links {
-    @apply text-xl px-4 py-2  font-bold rounded-lg hover:bg-white hover:text-black transition-all duration-300 max-w-md text-white
+    @apply text-xl px-4 py-2 font-bold rounded-lg hover:bg-white hover:text-black transition-all duration-300 max-w-md text-white
 }
 
 .navBgColor {
@@ -33,26 +33,25 @@
     
 }
 
-
 .info-details {
-    @apply text-center absolute top-[40%] left-[45%]
+    @apply text-center absolute top-[40%] left-[40%] sm:left-[45%] md:left-[45%]
 
 }
 
 .name {
-    @apply text-7xl text-gray-200 mt-4;
+    @apply text-3xl md:text-5xl ml-[28%] sm:ml-0 xl:text-7xl text-gray-200 mt-4 mx-0;
 }
 
 .text-intro {
-    @apply  text-gray-300 text-3xl mb-12
+    @apply  text-gray-300 text-lg ml-[28%] md:ml-[25%] lg:ml-[10%] sm:ml-0 md:text-xl lg:text-3xl mb-12
 }
 
 .v-p {
-    @apply ml-[35%]
+    @apply ml-[30%] md:ml-[35%]
 }
 
 .view {
-    @apply  text-white text-lg border-4 p-4 font-bold hover:bg-white hover:text-black transition-all duration-500
+    @apply  text-white text-sm sm:text-lg border-4 p-4 font-bold hover:bg-white hover:text-black transition-all duration-500
 }
 
 .transform-50 {
@@ -68,7 +67,7 @@
 }
 
 .brief {
-    @apply w-[60%] mx-[20%] border-2 border-gray-500 p-8 rounded-xl  text-center hover:border-orange-500 hover:border-4 transition-all duration-300;
+    @apply w-[90%] lg:w-[60%] mx-[5%] lg:mx-[20%] border-2 border-gray-500 px-2 py-4 lg:p-8 rounded-xl  text-center hover:border-orange-500 hover:border-4 transition-all duration-300;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -86,12 +85,16 @@
 }
 
 .footer {
-    @apply text-center my-4 bg-orange-500 my-0 py-6 flex flex-row justify-between w-full px-4
+    @apply text-center bg-orange-500 my-0 py-4 sm:py-6 flex flex-col sm:flex-row justify-around sm:justify-between w-full px-8  sm:px-4
 }
 
 .foot {
-    @apply py-2 px-4 shadow text-white font-bold bg-orange-600 hover:bg-orange-800 transition-all duration-300 hover:rounded-lg
+    @apply py-2 px-4 shadow mb-4 text-white font-bold bg-orange-600 hover:bg-orange-800 transition-all duration-300 hover:rounded-lg
 } 
+
+.main-page {
+    @apply relative
+}
 
 .p-title {
     @apply items-center mt-[6%] text-4xl text-gray-700 p-4 text-center
