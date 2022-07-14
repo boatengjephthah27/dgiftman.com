@@ -8,15 +8,15 @@
 
 
 .navbar {
-    @apply top-0 fixed h-[5.4rem] p-[2.8rem] z-10 w-full hidden xl:block;
+    @apply top-0 fixed h-[2.8rem] items-center text-center lg:block sm:block xl:h-[5.4rem] px-[1.4] py-[2.4rem] z-10 w-full xl:block;
 }
 
 .navs {
-    @apply flex w-[65%] right-0 text-center justify-between items-center top-0 fixed h-[5.4rem] p-[2.8rem]
+    @apply flex w-[70%] right-0 text-center justify-between items-center top-0 fixed lg:h-[5.4rem] px-[1.8] mr-[0] pt-[1.8rem] hidden xl:block h-[2.4rem] lg:block
 }
 
 .nav-links {
-    @apply text-xl px-4 py-2 font-bold rounded-lg hover:bg-white hover:text-black transition-all duration-300 max-w-md text-white
+    @apply text-sm lg:text-xs xl:text-sm 2xl:text-xl font-bold px-4 py-2 rounded-lg hover:bg-white hover:text-black transition-all duration-300 max-w-md text-white
 }
 
 .navBgColor {
@@ -67,7 +67,7 @@
 }
 
 .brief {
-    @apply w-[90%] lg:w-[60%] mx-[5%] lg:mx-[20%] border-2 border-gray-500 px-2 py-4 lg:p-8 rounded-xl  text-center hover:border-orange-500 hover:border-4 transition-all duration-300;
+    @apply w-[90%] lg:w-[70%] mx-[5%]  lg:mx-[15%] border-2 border-gray-500 px-2 py-4 lg:p-8 rounded-xl  text-center hover:border-orange-500 hover:border-4 transition-all duration-300;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -101,15 +101,15 @@
 }
 
 .ptit {
-    @apply animate-pulse
+    @apply animate-pulse mt-[15%] sm:mt-[3%]
 }
 
 .p-links {
-    @apply px-4 mx-[10%] flex justify-between w-[80%] items-center mb-12
+    @apply px-2 mx-[5%] md:mx-[10%] flex flex-col md:flex-row justify-between w-[90%] md:w-[80%] items-center mb-12
 }
 
 .ppxs {
-    @apply flex justify-center border-2 py-2 px-4 border-gray-400 shadow-lg hover:bg-gray-200 transition-all duration-300 hover:shadow-2xl 
+    @apply flex justify-center border-2 py-2 px-4 border-gray-400 shadow-lg hover:bg-gray-200 transition-all duration-300 hover:shadow-2xl mb-4
 }
 
 .ppx {
@@ -119,6 +119,7 @@
 .p-cards {
     @apply mt-12 px-12 text-gray-600 font-bold h-full
 }
+
 #journal {
     @apply mt-10
 }
