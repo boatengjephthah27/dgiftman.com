@@ -54,30 +54,36 @@
         </a>
     </div>
 
-    <div class="contact">
-        <form action="">
-            <div>
+    <div class="contact bg-gray-800">
+        <h1 class="text-center text-gray-300 text-2xl font-bold mb-8">CONTACT FORMS</h1>
 
-                <label for="fname"> First Name</label>
-                <input type="text" placeholder="First Name">
-
-                <label for="lname"> Last Name</label>
-                <input type="text" placeholder="Last Name">
-
-            </div>
-
-            <div>
-
-                <label for="mail">Email</label>
-                <input type="email" placeholder="Your Email">
-
-                <label for="telephone"> First Name</label>
-                <input type="number" placeholder="Mobile Number">
-
-            </div>
-
-
-        </form>
+        <div class="cf">
+            <form action="">
+                <div class="ff">
+    
+                    <label for="fname" class="sr-only"> First Name</label>
+                    <input class="f" id="fname" type="text" placeholder="First Name">
+    
+                    <label for="lname" class="sr-only"> Last Name</label>
+                    <input class="f" id="lname" type="text" placeholder="Last Name">
+    
+                </div>
+    
+                <div class="ff">
+    
+                    <label for="mail" class="sr-only">Email</label>
+                    <input class="f" id="mail" type="email" placeholder="Your Email">
+    
+                    <label for="telephone" class="sr-only"> First Name</label>
+                    <input class="f" id="telephone" type="tel" placeholder="Mobile Number">
+    
+                </div>
+                <label class="sr-only" for="msg">Message</label>
+                <textarea class="f resize-none" placeholder="Type your message here..." name="msg" id="msg" cols="40" rows="10"></textarea>
+    
+    
+            </form>
+        </div>
     </div>
 
 

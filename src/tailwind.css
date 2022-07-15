@@ -139,3 +139,15 @@
 .profile-links {
     @apply  flex flex-col justify-between mx-[5%] w-[90%] px-2 mb-12 lg:flex-row md:mx-[10%] md:w-[80%] xl:w-[66%] xl:mx-[17%] items-center 
 }
+
+.contact {
+    @apply  flex my-[10%] mx-[5%] justify-center text-center flex-col border-2 p-8 border-gray-400 rounded-3xl lg:mx-[20%] lg:w-[60%] hover:shadow-xl transition-all duration-300
+}
+
+.ff {
+    @apply mb-4 mx-2 flex flex-col md:flex-row
+}
+
+.f {
+    @apply mx-[3%] p-4 w-[94%] mb-4 transition-all bg-gray-300 border-2 shadow-sm border-gray-400 hover:border-2 hover:shadow-md md:mx-[1%]
+}
