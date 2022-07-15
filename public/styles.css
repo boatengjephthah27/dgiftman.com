@@ -601,6 +601,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.mt-8{
+  margin-top: 2rem;
+}
+
 .flex{
   display: flex;
 }
@@ -689,6 +693,16 @@ video {
   line-height: 2rem;
 }
 
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .font-medium{
   font-weight: 500;
 }
@@ -728,6 +742,11 @@ video {
 .text-gray-600{
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
+.text-gray-700{
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
 .transition-all{
@@ -1331,10 +1350,47 @@ video {
 .profile-details{
   margin-left: 1rem;
   margin-right: 1rem;
+  margin-bottom: 2rem;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 1rem;
+}
+
+.profile-links{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 3rem;
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+@media (min-width: 768px){
+  .profile-links{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+  }
+}
+
+@media (min-width: 1024px){
+  .profile-links{
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1280px){
+  .profile-links{
+    margin-left: 17%;
+    margin-right: 17%;
+    width: 66%;
+  }
 }
 
 .hover\:bg-black:hover{
@@ -1360,4 +1416,3 @@ video {
     flex-direction: row;
   }
 }
-
