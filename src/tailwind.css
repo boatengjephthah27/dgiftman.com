@@ -157,3 +157,43 @@
 .sub-butt {
     @apply text-gray-300 font-bold  px-12 py-2 bg-orange-500 uppercase border-gray-400 hover:bg-gray-200 hover:text-gray-800 hover:shadow-lg transition-all duration-300 rounded-md
 }
+
+.projects {
+    @apply flex justify-center flex-col items-center border-2 py-4 px-2 border-gray-400 hover:shadow-xl transition-all duration-300 mb-8
+}
+
+.cls-c {
+    @apply flex justify-center flex-col items-center hover:shadow-xl transition-all duration-300
+}
+
+.pro-images {
+    @apply w-[80%]
+}
+
+.pro-details {
+    @apply flex
+}
+
+.pt {
+    @apply text-gray-600 font-bold underline
+}
+
+.team {
+    @apply text-gray-500
+}
+
+.abstract {
+    @apply text-gray-400
+}
+
+.rmb {
+    @apply py-2 px-4 border-2 mt-2 bg-gray-500  text-gray-200 font-bold border-gray-400 hover:bg-gray-200 hover:text-gray-500 transition-all duration-300
+}
+
+.p-details.Show-More #abs20 {
+    @apply inline
+}
+
+.p-details.Show-More #abs19 {
+    @apply inline
+}
