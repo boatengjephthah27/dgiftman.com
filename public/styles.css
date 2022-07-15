@@ -1406,7 +1406,7 @@ video {
   }
 }
 
-.contact{
+#contact{
   margin-top: 10%;
   margin-bottom: 10%;
   margin-left: 5%;
@@ -1423,7 +1423,7 @@ video {
 }
 
 @media (min-width: 1024px){
-  .contact{
+  #contact{
     margin-left: 20%;
     margin-right: 20%;
     width: 60%;

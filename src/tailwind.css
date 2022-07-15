@@ -140,7 +140,7 @@
     @apply  flex flex-col justify-between mx-[5%] w-[90%] px-2 mb-12 lg:flex-row md:mx-[10%] md:w-[80%] xl:w-[66%] xl:mx-[17%] items-center 
 }
 
-.contact {
+#contact {
     @apply  flex my-[10%] mx-[5%] justify-center text-center flex-col border-2 p-8 border-gray-400 rounded-3xl lg:mx-[20%] lg:w-[60%]
 }
 
