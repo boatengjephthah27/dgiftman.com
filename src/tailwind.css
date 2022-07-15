@@ -159,7 +159,7 @@
 }
 
 .projects {
-    @apply flex justify-center flex-col items-center border-2 py-4 px-2 border-gray-400 hover:shadow-xl transition-all duration-300 mb-8
+    @apply flex justify-center flex-col items-center border-2 py-8 px-2 border-gray-400 hover:shadow-xl transition-all duration-300 mb-8
 }
 
 .cls-c {
@@ -183,17 +183,25 @@
 }
 
 .abstract {
-    @apply text-gray-400
+    @apply text-gray-400 hidden
+}
+
+.abstract-show {
+    @apply inline
 }
 
 .rmb {
     @apply py-2 px-4 border-2 mt-2 bg-gray-500  text-gray-200 font-bold border-gray-400 hover:bg-gray-200 hover:text-gray-500 transition-all duration-300
 }
 
-.p-details.Show-More #abs20 {
+/* .p-details1.Show-More1 #abs20 {
     @apply inline
 }
 
-.p-details.Show-More #abs19 {
+.p-details2.Show-More2 #abs19 {
     @apply inline
+} */
+
+.pro-details:not(:last-child){
+    @apply mb-[50px]
 }
