@@ -1155,18 +1155,16 @@ video {
 }
 
 .footer{
-  margin-top: 0px;
-  margin-bottom: 0px;
   display: flex;
   width: 100%;
   flex-direction: column;
   justify-content: space-around;
   --tw-bg-opacity: 1;
   background-color: rgb(249 115 22 / var(--tw-bg-opacity));
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
   padding-left: 2rem;
   padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 0px;
   text-align: center;
 }
 
@@ -1174,10 +1172,10 @@ video {
   .footer{
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0px;
   }
 }
 

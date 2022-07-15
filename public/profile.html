@@ -55,32 +55,32 @@
     </div>
 
     <div class="contact bg-gray-800">
-        <h1 class="text-center text-gray-300 text-2xl font-bold mb-8">CONTACT FORMS</h1>
+        <h1 class="text-center text-gray-300 text-2xl font-bold mb-8">GET IN TOUCH</h1>
 
         <div class="cf">
-            <form action="">
+            <form action="https://formspree.io/f/xwkydgvq" method="post">
                 <div class="ff">
     
                     <label for="fname" class="sr-only"> First Name</label>
-                    <input class="f" id="fname" type="text" placeholder="First Name">
+                    <input class="f" name="First Name" type="text" placeholder="First Name" required>
     
                     <label for="lname" class="sr-only"> Last Name</label>
-                    <input class="f" id="lname" type="text" placeholder="Last Name">
+                    <input class="f" name="Last Name" type="text" placeholder="Last Name" required>
     
                 </div>
     
                 <div class="ff">
     
                     <label for="mail" class="sr-only">Email</label>
-                    <input class="f" id="mail" type="email" placeholder="Your Email">
+                    <input class="f" name="Email" type="email" placeholder="Your Email" required>
     
                     <label for="telephone" class="sr-only"> First Name</label>
-                    <input class="f" id="telephone" type="tel" placeholder="Mobile Number">
+                    <input class="f" name="Mobile Number" type="tel" placeholder="Mobile Number" required>
     
                 </div>
                 <label class="sr-only" for="msg">Message</label>
-                <textarea class="f resize-none" placeholder="Type your message here..." name="msg" id="msg" cols="40" rows="10"></textarea>
-                <button class="sub-butt">Submit</button>
+                <textarea class="f resize-none" placeholder="Type your message here..." name="Message" cols="40" rows="10" required></textarea>
+                <button type="submit" class="sub-butt">Send</button>
     
     
             </form>
@@ -96,6 +96,24 @@
 
         <div class="foot">Equip, Train & Build Capacity</div>
     </footer>
+
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host : "smtp.gmail.com",
+                Username : "boatengjephthah27@gmail.com",
+                Password : "password",
+                To : "jeph.edu1@gmail.com",
+                From : document.getElementById("mail").value,
+                Subject : "This is the subject",
+                Body : "And this is the body"
+            }).then(
+            message => alert(message)
+            );
+
+        }
+    </script> -->
 
 </body>
 </html>
