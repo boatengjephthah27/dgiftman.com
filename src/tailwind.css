@@ -21,13 +21,13 @@
 }
 
 .m-btn {
-    @apply my-2 border-b-2 mx-0 py-4 px-2 relative border-gray-600 text-gray-300 transition-all duration-300 hover:rounded-lg hover:bg-gray-300 hover:text-gray-700;
+    @apply my-2 border-b-2 mx-0 py-4 px-2 relative border-gray-600 text-gray-300 transition-all duration-300 hover:rounded-lg hover:bg-gray-400 hover:text-gray-700;
     font-family: 'Montserrat', sans-serif;
 
 }
 
 .m-btn-a {
-    @apply hover:text-gray-700
+    @apply py-2 font-bold hover:text-gray-700
 }
 
 .navs {
