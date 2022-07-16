@@ -20,14 +20,14 @@
     @apply w-[10%] flex right-4 text-center justify-between items-center top-0 fixed px-[1.8] mr-[0] pt-[1rem] lg:hidden sm:w-[5%] 
 }
 
-.s-menu-show {
-    @apply inline-block;
-}
-
 .m-btn {
-    @apply my-2 border-b-2 mx-0 py-4 relative border-gray-600;
+    @apply my-2 border-b-2 mx-0 py-4 px-2 relative border-gray-600 text-gray-300 transition-all duration-300 hover:rounded-lg hover:bg-gray-300 hover:text-gray-700;
     font-family: 'Montserrat', sans-serif;
 
+}
+
+.m-btn-a {
+    @apply hover:text-gray-700
 }
 
 .navs {
@@ -156,7 +156,7 @@
 }
 
 .profile-links {
-    @apply  flex flex-col justify-between mx-[5%] w-[90%] px-2 mb-12 lg:flex-row md:mx-[10%] md:w-[80%] xl:w-[66%] xl:mx-[17%] items-center 
+    @apply  flex flex-col justify-evenly mx-[5%] w-[90%] px-2 mb-12 lg:flex-row md:mx-[10%] md:w-[80%] xl:w-[66%] xl:mx-[17%] items-center 
 }
 
 #contact {
