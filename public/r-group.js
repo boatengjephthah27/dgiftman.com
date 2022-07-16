@@ -49,18 +49,18 @@
 
 
 
-const parentContainer = document.querySelector('.p-details');
-parentContainer.addEventListener('click', event=>{
-    const current = event.target;
+// const parentContainer = document.querySelector('.p-details');
+// parentContainer.addEventListener('click', event=>{
+//     const current = event.target;
 
-    const isRMB = current.className.includes('rmb');
+//     const isRMB = current.className.includes('rmb');
 
-    if(!isRMB) return;
+//     if(!isRMB) return;
 
-    const currentText = event.target.parentNode.querySelector('.abstract');
+//     const currentText = event.target.parentNode.querySelector('.abstract');
 
-    currentText.classList.toggle('.abstract--show');
+//     currentText.classList.toggle('.abstract--show');
 
-    current.textContent = current.textContent.includes('Read More') ? "Read Less..." : "Read More...";
+//     current.textContent = current.textContent.includes('Read More') ? "Read Less..." : "Read More...";
 
-})
+// })
