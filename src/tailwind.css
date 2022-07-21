@@ -8,16 +8,16 @@
 
 
 .navbar {
-    @apply top-0 fixed h-[2.8rem] items-center text-center lg:block sm:block xl:h-[5.4rem] px-[1.4] py-[2.4rem] z-10 w-full xl:block;
+    @apply top-0 fixed h-[2.8rem] items-center text-center lg:block sm:block xl:h-[5.4rem] px-[1.4] py-[2.4rem] z-10 w-full xl:block transition-all duration-700;
 }
 
 .s-menu {
-    @apply flex right-0 text-center items-center py-8 px-12 top-16 fixed bg-gray-800 hidden
+    @apply flex right-0 text-center items-center py-8 px-12 top-12 fixed bg-gray-800 hidden
 
 }
 
 .menu {
-    @apply w-[10%] flex right-4 text-center justify-between items-center top-0 fixed px-[1.8] mr-[0] pt-[1rem] lg:hidden sm:w-[5%] 
+    @apply w-[10%] flex right-4 text-center justify-between items-center top-0 absolute px-[1.8] mr-[0] pt-[1rem] lg:hidden sm:w-[5%] 
 }
 
 .m-btn {
@@ -39,7 +39,7 @@
 }
 
 .navs {
-    @apply flex w-[70%] right-0 text-center justify-between items-center top-0 fixed lg:h-[5.4rem] px-[1.8] mr-[0] pt-[1.8rem] hidden xl:block h-[2.4rem] lg:block
+    @apply flex w-[70%] right-0 text-center justify-between items-center top-0 absolute lg:h-[5.4rem] px-[1.8] mr-[0] pt-[1.8rem] hidden xl:block h-[2.4rem] lg:block
 }
 
 .nav-links {

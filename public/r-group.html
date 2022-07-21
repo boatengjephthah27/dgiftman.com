@@ -10,29 +10,34 @@
 
     <header id="navbar" class="navbar bg-gray-800 border-b-2">
         
-        <button id="navMenu" onclick="myFunction()"><img src="images/menu-svgrepo-com.svg" class="menu"></button>
-        <div id="subMenu" class="s-menu">
-            <ul>
-                <a class="m-btn-a" href="index.html#about">
-                     <li class="m-btn"> About </li> 
-                </a>
-                <a class="m-btn-a" href="publications.html"> 
-                    <li class="m-btn"> Publications </li> 
-                </a>
-                <a class="m-btn-a" href="teachings.html"> 
-                    <li class="m-btn"> Teaching </li> 
-                </a>
-                <a class="m-btn-a" href="research.html"> 
-                    <li class="m-btn"> Research </li> 
-                </a>
-                <a class="m-btn-a" href="r-group.html"> 
-                    <li class="m-btn"> Reseach Groups </li> 
-                </a>
-                <a class="m-btn-a" href="misc.html"> 
-                    <li class="m-btn"> Misc. </li> 
-                </a>
-                <a class="m-btn-a" href="profile.html"> <li class="m-btn">Profile </li> </a>
-            </ul>
+        <div class="dropdown">
+            <div class="navss">
+                <button id="navMenu"><img src="images/menu-svgrepo-com.svg" class="menu"></button>
+            </div>
+            
+            <div id="subMenu" class="s-menu">
+                <ul>
+                    <a class="m-btn-a" href="index.html#about">
+                         <li class="m-btn"> About </li> 
+                    </a>
+                    <a class="m-btn-a" href="publications.html"> 
+                        <li class="m-btn"> Publications </li> 
+                    </a>
+                    <a class="m-btn-a" href="teachings.html"> 
+                        <li class="m-btn"> Teaching </li> 
+                    </a>
+                    <a class="m-btn-a" href="research.html"> 
+                        <li class="m-btn"> Research </li> 
+                    </a>
+                    <a class="m-btn-a" href="r-group.html"> 
+                        <li class="m-btn"> Reseach Groups </li> 
+                    </a>
+                    <a class="m-btn-a" href="misc.html"> 
+                        <li class="m-btn"> Misc. </li> 
+                    </a>
+                    <a class="m-btn-a" href="profile.html"> <li class="m-btn">Profile </li> </a>
+                </ul>
+            </div>
         </div>
          
         
@@ -623,6 +628,19 @@
             } else {
                 x.style.display = "none";
             }
+        }
+    </script>
+
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-100px";
+        }
+        prevScrollpos = currentScrollPos;
         }
     </script>
 

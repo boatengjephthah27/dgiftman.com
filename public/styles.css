@@ -814,6 +814,9 @@ video {
   padding-top: 2.4rem;
   padding-bottom: 2.4rem;
   text-align: center;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 700ms;
 }
 
 @media (min-width: 640px){
@@ -838,7 +841,7 @@ video {
 .s-menu{
   position: fixed;
   right: 0px;
-  top: 4rem;
+  top: 3rem;
   display: flex;
   display: none;
   align-items: center;
@@ -852,7 +855,7 @@ video {
 }
 
 .menu{
-  position: fixed;
+  position: absolute;
   right: 1rem;
   top: 0px;
   margin-right: 0;
@@ -931,7 +934,7 @@ video {
 }
 
 .navs{
-  position: fixed;
+  position: absolute;
   right: 0px;
   top: 0px;
   margin-right: 0;
