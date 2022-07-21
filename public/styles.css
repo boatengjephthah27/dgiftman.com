@@ -891,6 +891,7 @@ video {
   padding-bottom: 1rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  font-weight: 800;
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
   transition-property: all;
@@ -913,12 +914,20 @@ video {
 .m-btn-a{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .m-btn-a:hover{
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.dropdown{
+  display: inline-block;
+}
+
+.dropdown:hover .s-menu{
+  display: block;
 }
 
 .navs{
@@ -1714,7 +1723,8 @@ video {
 }
 
 .abstract-show{
-  display: inline;
+  display: inline-block;
+  overflow: hidden;
 }
 
 .rmb{
