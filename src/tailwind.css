@@ -70,7 +70,7 @@
 }
 
 .text-intro {
-    @apply  text-gray-300 text-lg ml-[28%] md:ml-[25%] lg:ml-[10%] sm:ml-0 md:text-xl lg:text-3xl mb-12
+    @apply  text-gray-300 text-lg ml-[28%] w-full md:ml-[25%] lg:ml-[10%] sm:ml-0 md:text-xl lg:text-3xl mb-12
 }
 
 .v-p {
@@ -78,7 +78,7 @@
 }
 
 .view {
-    @apply  text-white text-sm sm:text-lg border-4 p-4 font-bold hover:bg-white hover:text-black transition-all duration-500
+    @apply  text-white w-full text-sm sm:text-lg border-4 p-4 font-bold hover:bg-white hover:text-black transition-all duration-500
 }
 
 .transform-50 {

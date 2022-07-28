@@ -1083,6 +1083,7 @@ video {
 .text-intro{
   margin-left: 28%;
   margin-bottom: 3rem;
+  width: 100%;
   font-size: 1.125rem;
   line-height: 1.75rem;
   --tw-text-opacity: 1;
@@ -1122,6 +1123,7 @@ video {
 }
 
 .view{
+  width: 100%;
   border-width: 4px;
   padding: 1rem;
   font-size: 0.875rem;
